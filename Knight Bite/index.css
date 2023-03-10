@@ -1,0 +1,138 @@
+.head{
+    width: 100%;
+    height: 700px;
+    background-image: url('../Website-4/burger.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover !important;
+  }
+  .ios {
+    cursor: pointer;
+    width: 204px;
+    height: 70px;
+    background-image: url(https://nrzl4apc.knight-bite.com/main/res/index/ios-store.svg);
+    background-repeat: no-repeat;
+    margin-right: 90px;
+    margin-left: 500px;
+  }
+  .ios:hover{
+    transition: 2s;
+    transform: scale(0.9);
+  }
+  .and {
+    cursor: pointer;
+    width: 184px;
+    height: 70px;
+    background-image: url(https://nrzl4apc.knight-bite.com/main/res/index/google-play-badge.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+  }
+  .and:hover{
+    transition: 2s;
+    transform: scale(0.9);
+  }
+  .burg {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://nrzl4apc.knight-bite.com/main/res/index/banner-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover !important;
+  }
+  .burg-fries {
+    width: 100%;
+    height: 800px;
+    background-image: url(https://nrzl4apc.knight-bite.com/main/res/index/banner-2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover !important;
+  }
+  .about{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://nrzl4apc.knight-bite.com/main/res/about/banner.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover !important;
+  }
+  .menu{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://nrzl4apc.knight-bite.com/main/res/menu/banner.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover !important;
+  }
+  .grid-container{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 35px;
+  }
+  .grid-container div{
+    text-align: center;
+    width: 300px;
+    margin: 0 10px;
+  }
+  .btn{
+    background: #ff5672;
+    margin-top: 30px ;
+    margin-left: 0px;
+    padding: 10px 20px;
+    width: 195px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .btns{
+    background: #ff5672;
+    margin-top: 30px ;
+    margin-left: 630px;
+    padding: 10px 20px;
+    width: 195px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .bavideo {
+    margin: 0;
+    z-index: 0;
+  }
+  @media (max-aspect-ratio :10/10) {
+    .bavideo{
+      width: auto;
+      height: 400px;
+    }
+  }
+  
